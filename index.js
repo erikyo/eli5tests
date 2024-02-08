@@ -6,8 +6,16 @@ class Animal {
 }
 
 class Dog extends Animal {
+  constructor(name, color, size = 'small') {
+    super(name, color)
+    this.size = size
+  }
+
   bark() {
-    return "Woof woof!"
+    if (this.size === 'big') {
+      return "Woof woof!"
+    }
+    return "Yip yip!"
   }
 }
 
@@ -15,6 +23,10 @@ class Cat extends Animal {
   meow() {
     return "Meow meow!"
   }
+
+  purr(n = 3) {
+    return "Pu" + "r".repeat(n) + "..."
+  }
 }
 
-module.exports = { Animal, Dog, Cat }
+module.exports = {Animal, Dog, Cat}
