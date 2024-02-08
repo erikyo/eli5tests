@@ -1,0 +1,13 @@
+{
+  "name": "eli5tests",
+  "version": "1.0.0",
+  "description": "a short example of how to use jest testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "private": true,
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
