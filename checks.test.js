@@ -1,7 +1,7 @@
-const { Animal } = require('./index.js')
-const {Dog, Cat} = require("./index");
+const { Animal, Dog, Cat } = require('./index')
+const { test, expect } = require('@jest/globals')
 
-test('has a name', () => {
+test('has a name and a color attribute', () => {
   const animal = new Animal()
   animal.name = 'Fluffy'
   animal.color = 'blue'
@@ -11,9 +11,7 @@ test('has a name', () => {
 })
 
 test('is a dog that barks', () => {
-  const dog = new Dog()
-  dog.name = 'Fluffy'
-  dog.color = 'Fluffy'
+  const dog = new Dog('fluffy', 'blue')
   expect(dog.bark()).not.toBe('Fluffy')
   expect(dog.bark()).toBe('Woof woof!')
 })
