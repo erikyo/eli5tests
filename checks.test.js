@@ -7,7 +7,7 @@ test('has a name and a color attribute', () => {
   animal.color = 'blue'
 
   expect(animal.name).toBe('Fluffy')
-  expect(animal.name).not.toBe('red')
+  expect(animal.color).not.toBe('red')
 })
 
 test('is a dog that barks', () => {
