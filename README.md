@@ -97,8 +97,6 @@ If you're curious about the wizard's spells, peek into the magical scroll called
 
 See? The wizard has its spells neatly written down!
 
-That's it, kiddo! Now you're a master summoner of the magical wizard Jest. Go on, run those tests, and let the fun begin! 🚀✨
-
 
 ## Let's Wrap It Up!
 
