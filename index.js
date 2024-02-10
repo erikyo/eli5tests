@@ -1,5 +1,4 @@
 class Animal {
-
   set emoji(value) {
     this._emoji = value;
   }
@@ -8,7 +7,6 @@ class Animal {
     this.name = name
     this.color = color
     this._emoji = undefined;
-
   }
 
   me() {
@@ -32,7 +30,6 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-
   meow() {
     return "Meow meow!"
   }
