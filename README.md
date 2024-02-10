@@ -114,28 +114,3 @@ See? The wizard has its spells neatly written down!
 And there you have it, kiddo! 🌟 That's how we make sure our Animal Kingdom is happy and playful. Just like you, we want everything to be perfect and full of joy!
 
 Now, go ahead and explore this magical world of tests. If you ever have questions, just ask – we're here to play and learn together! 🚀
-
-
-
-
-
-
-Absolutely! Let's make it playful:
-
-
-
-If it's not there, don't worry! Mommy or daddy can go to the Node.js website (https://nodejs.org/) and bring it home for you. 🏡
-
-### Installing Jest - Our Magical Testing Wizard
-
-Now that we have Node.js, we can install Jest. Open the command line again, and type:
-
-```bash
-npm install --save-dev jest
-```
-
-It's like inviting a magical testing wizard to our playdate!
-
-### Launching the Tests - Let the Fun Begin! 🚀
-
-To see the tests in action, type:
