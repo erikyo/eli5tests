@@ -60,6 +60,46 @@ Our cats are special too! We test if they meow, purr, and show off their cute ca
 
 To play with these tests, you'll need a magical tool called Jest. It's like a wizard that helps us run our tests and see if everything is working like it should.
 
+
+## Let's Play with the Magical Wizard (Command Line) 🧙‍♂️
+
+Alright, little explorer! 🕵️ Now, let me show you how to summon the magical wizard to make our Animal Kingdom tests come to life. It's like casting a spell!
+
+### Step 1: Get Your Magic Wand (Install Jest)
+
+Open your command line – it's like a secret portal to the wizard world. Type this funny incantation and press Enter:
+
+```bash
+npm install
+```
+
+Wait for the wizard to gather all the enchanted tools. 🪄
+
+### Step 2: Unleash the Wizard (Run Tests)
+
+Now, it's time to let the wizard do its thing. Type the following command and watch the magic unfold:
+
+```bash
+npm run tests
+```
+
+The wizard will start chanting, and you'll see if our Animal Kingdom is all smiles and laughter. 🎉
+
+### Bonus: Check the Magic Scroll (Package.json)
+
+If you're curious about the wizard's spells, peek into the magical scroll called `package.json`. Look for the section with "scripts," and you'll find the spell for running tests.
+
+```json
+"scripts": {
+  "tests": "jest"
+}
+```
+
+See? The wizard has its spells neatly written down!
+
+That's it, kiddo! Now you're a master summoner of the magical wizard Jest. Go on, run those tests, and let the fun begin! 🚀✨
+
+
 ## Let's Wrap It Up!
 
 And there you have it, kiddo! 🌟 That's how we make sure our Animal Kingdom is happy and playful. Just like you, we want everything to be perfect and full of joy!
