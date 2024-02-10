@@ -56,9 +56,20 @@ For our dogs, we test if they bark correctly. Big dogs go "Woof woof!" and small
 
 Our cats are special too! We test if they meow, purr, and show off their cute cat emojis. 🐱
 
+
 ## How to Play with Tests
 
-To play with these tests, you'll need a magical tool called Jest. It's like a wizard that helps us run our tests and see if everything is working like it should.
+To join the fun and play with our tests, we need a special tool called Jest. But first, we need to make sure we have Node.js installed. 🧙‍♂️
+
+### Checking if Node.js is in Your Toy Box
+
+Do a quick check if Node.js is in your toy box. Open the command line and type:
+
+```bash
+npm -v
+```
+
+If it's not there, don't worry! Mommy or daddy can go to the Node.js website (https://nodejs.org/) and bring it home for you. 🏡
 
 
 ## Let's Play with the Magical Wizard (Command Line) 🧙‍♂️
@@ -103,3 +114,28 @@ See? The wizard has its spells neatly written down!
 And there you have it, kiddo! 🌟 That's how we make sure our Animal Kingdom is happy and playful. Just like you, we want everything to be perfect and full of joy!
 
 Now, go ahead and explore this magical world of tests. If you ever have questions, just ask – we're here to play and learn together! 🚀
+
+
+
+
+
+
+Absolutely! Let's make it playful:
+
+
+
+If it's not there, don't worry! Mommy or daddy can go to the Node.js website (https://nodejs.org/) and bring it home for you. 🏡
+
+### Installing Jest - Our Magical Testing Wizard
+
+Now that we have Node.js, we can install Jest. Open the command line again, and type:
+
+```bash
+npm install --save-dev jest
+```
+
+It's like inviting a magical testing wizard to our playdate!
+
+### Launching the Tests - Let the Fun Begin! 🚀
+
+To see the tests in action, type:
