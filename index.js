@@ -1,7 +1,18 @@
 class Animal {
+
+  set emoji(value) {
+    this._emoji = value;
+  }
+
   constructor(name, color) {
     this.name = name
     this.color = color
+    this._emoji = undefined;
+
+  }
+
+  me() {
+    return this._emoji ?? '🐵'
   }
 }
 
@@ -9,6 +20,7 @@ class Dog extends Animal {
   constructor(name, color, size = 'small') {
     super(name, color)
     this.size = size
+    this._emoji = '🐶'
   }
 
   bark() {
@@ -20,12 +32,13 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
+
   meow() {
     return "Meow meow!"
   }
 
   purr(n = 3) {
-    return "Pu" + "r".repeat(n) + "..."
+    return `Pu${"r".repeat(n)}...`
   }
 }
 
